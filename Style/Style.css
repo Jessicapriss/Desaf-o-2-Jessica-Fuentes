@@ -1,0 +1,89 @@
+body
+{
+    background-color: rgb(247, 215, 242);
+}
+.logo
+{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 40px;
+}
+header
+{
+text-align: center;
+background-color: white;
+padding: -30px;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}
+nav li
+{
+    display: inline;
+    padding:60px;
+}
+nav a
+{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover
+{
+    text-decoration: underline;
+}
+main{
+    color: black;
+    background-color: #b35496
+}
+p
+{
+    font-size: 40px;
+}
+.tarjetas {
+ 
+    display: flex;
+    justify-content: center;
+ 
+}
+.card{
+ 
+    margin: 10px;
+ 
+    width: 300px;
+ 
+    border-radius: 30px;
+ 
+    overflow: hidden;
+ 
+    font-family: "Afacad Flux", sans-serif;
+ 
+    box-shadow: 0px 5px 10px rgb(42, 56, 116);
+ 
+    padding: 20px;
+ 
+    background-color: aliceblue;
+}
+.card:hover{
+ 
+    background-color: rgb(255, 207, 247);
+ 
+    transform: scale(1.05);
+ 
+}
+.card img{
+ 
+    width: 100%;
+ 
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+ 
+}
