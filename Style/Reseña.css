@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+body
+{
+    background-color: rgb(247, 215, 242);
+}
+.logo
+{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 40px;
+}
+header
+{
+text-align: center;
+background-color: white;
+padding: -30px;
+}
+ 
+nav{
+    font-family: "IBM Plex Serif", serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}
+nav img{
+    width: 150px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+div
+{
+    font-family: "IBM Plex Serif", serif;
+}
+.inicios{
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    color: rgb(26, 10, 10);
+}
+.fotos
+{
+    text-align: center;
+}
+.fotos img
+{
+    width: 400px;
+}
+footer{
+    background-color: rgb(201, 199, 199);
+    text-align: center;
+    padding: 20px;
+}
